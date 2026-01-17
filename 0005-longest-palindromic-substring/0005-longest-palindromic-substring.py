@@ -1,6 +1,8 @@
 class Solution:
     def longestPalindrome(self,s: str)->str:
         res = s[0]
+        if not s:
+            return ""
         for i in range(len(s)):
             l,r = i,i
             while l >= 0 and r < len(s):
