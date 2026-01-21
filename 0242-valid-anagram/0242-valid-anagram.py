@@ -3,16 +3,14 @@ class Solution:
         if len(s) != len(t):
             return False
 
-        count = [0] * 26
+        s_count = {}
+        t_count = {}
 
-        for char in s:
-            count[ord(char) - ord('a')] += 1
+        for i in range(len(s)):
+            s_count[s[i]] = 1 + s_count.get(s[i], 0)
+            t_count[t[i]] = 1 + t_count.get(t[i], 0)
 
-        for char in t:
-            if count[ord(char) - ord('a')] == 0:
-                return False
-            count[ord(char) - ord('a')] -= 1
-        return True
+        return s_count == t_count
         
 
 
