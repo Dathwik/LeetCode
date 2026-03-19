@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Dathwik/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Dathwik/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Dathwik/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [1470-shuffle-the-array](https://github.com/Dathwik/LeetCode/tree/master/1470-shuffle-the-array) |
 | [1929-concatenation-of-array](https://github.com/Dathwik/LeetCode/tree/master/1929-concatenation-of-array) |
 ## Hash Table
 |  |
